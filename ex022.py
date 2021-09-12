@@ -1,0 +1,10 @@
+nome = str(input('Escreva o seu nome completo: '))
+nomeMai = nome.upper()
+nomeMin = nome.lower()
+n1 = len(nome) - nome.count(' ')
+prim = nome.split()
+
+print(nomeMai)
+print(nomeMin)
+print(n1)
+print(len(prim[0]))

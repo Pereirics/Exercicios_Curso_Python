@@ -1,0 +1,7 @@
+nome = str(input('Qual o seu nome completo? ')).strip().upper()
+n1 = nome.count('A')
+print(f'A letra A aparece {n1} vezes')
+n2 = nome.find('A')
+print(f'A primeira posição onde aparece é a: {n2 + 1}')
+n3 = nome.rfind('A')
+print(f'A última posição onde aparece é a: {n3 + 1}')
